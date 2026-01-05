@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  datapipeline:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATA_INPUT: "pipeline/data/input.csv"
+      DATA_OUTPUT: "pipeline/data/output.parquet"
+    volumes:
+      - ./pipeline/data:/app/pipeline/data
