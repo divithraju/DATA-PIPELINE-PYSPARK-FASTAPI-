@@ -1,0 +1,18 @@
+##  Build & Run Docker
+
+docker-compose up --build
+
+## Access API
+
+curl http://localhost:8000/data
+
+Sample Response:
+
+{
+  "records": [
+    {"id": "1", "value": "100"},
+    {"id": "2", "value": "200"},
+    {"id": "3", "value": "300"}
+  ],
+  "total": 3
+}
