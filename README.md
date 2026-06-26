@@ -119,9 +119,8 @@ pytest
 
 ## 👨‍💻 Author
 
-**Divith Raju**
-Backend & Data Engineering Enthusiast 🇮🇳
-GitHub: [https://github.com/divithraju](https://github.com/divithraju)
+**Divith Raju AI Engineer**  🇮🇳
+GitHub: https://github.com/divithraju
 
 ---
 
